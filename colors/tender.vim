@@ -240,7 +240,7 @@ hi! link SignifySignChangeDelete GitGutterChangeDelete
 hi! link SignifySignDelete GitGutterDelete
 hi! link SignifySignDeleteFirstLine SignifySignDelete
 hi! ALEErrorSign ctermbg=None ctermfg=203 guibg=None guifg=#f43753
-hi! ALEWarningSign ctermbg=None ctermfg=203 guibg=None guifg=#f43753
+hi! ALEWarningSign ctermbg=None ctermfg=215 guibg=None guifg=#ffc24b
 
 let g:terminal_color_foreground = "#282828"
 let g:terminal_color_background = "#eeeeee"
