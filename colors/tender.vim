@@ -233,6 +233,13 @@ hi! link StartifyPath Comment
 hi! link StartifySection Statement
 hi! link StartifySlash Comment
 hi! link StartifySpecial Normal
+hi! link SignifySignAdd GitGutterAdd
+hi! link SignifySignChange GitGutterChange
+hi! link SignifySignChangeDelete GitGutterChangeDelete
+hi! link SignifySignDelete GitGutterDelete
+hi! link SignifySignDeleteFirstLine SignifySignDelete
+hi! ALEErrorSign ctermbg=236 ctermfg=203 guibg=#323232 guifg=#f43753
+hi! ALEWarningSign ctermbg=236 ctermfg=203 guibg=#323232 guifg=#f43753
 
 let g:terminal_color_foreground = "#282828"
 let g:terminal_color_background = "#eeeeee"
