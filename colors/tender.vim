@@ -234,17 +234,23 @@ hi! link StartifyPath Comment
 hi! link StartifySection Statement
 hi! link StartifySlash Comment
 hi! link StartifySpecial Normal
+
 hi! link SignifySignAdd GitGutterAdd
 hi! link SignifySignChange GitGutterChange
 hi! link SignifySignChangeDelete GitGutterChangeDelete
 hi! link SignifySignDelete GitGutterDelete
 hi! link SignifySignDeleteFirstLine SignifySignDelete
+
 hi! ALEErrorSign ctermbg=None ctermfg=203 guibg=None guifg=#f43753
 hi! ALEWarningSign ctermbg=None ctermfg=215 guibg=None guifg=#ffc24b
+
 hi! link plug1 Normal
 hi! link plug2 Identifier
 hi! link plugDash Comment
 hi! link plugMessage Special
+
+hi! Lf_hl_match gui=bold guifg=#f43753 cterm=bold ctermfg=203
+hi! Lf_hl_matchRefine  gui=bold guifg=#ffc24b cterm=bold ctermfg=215
 
 let g:terminal_color_foreground = "#282828"
 let g:terminal_color_background = "#eeeeee"
