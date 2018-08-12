@@ -241,6 +241,10 @@ hi! link SignifySignDelete GitGutterDelete
 hi! link SignifySignDeleteFirstLine SignifySignDelete
 hi! ALEErrorSign ctermbg=None ctermfg=203 guibg=None guifg=#f43753
 hi! ALEWarningSign ctermbg=None ctermfg=215 guibg=None guifg=#ffc24b
+hi! link plug1 Normal
+hi! link plug2 Identifier
+hi! link plugDash Comment
+hi! link plugMessage Special
 
 let g:terminal_color_foreground = "#282828"
 let g:terminal_color_background = "#eeeeee"
