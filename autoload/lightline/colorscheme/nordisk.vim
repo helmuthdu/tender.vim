@@ -50,10 +50,10 @@ let s:p.visual.right	= [[s:col00, s:col12]]
 let s:p.normal.error	= [[s:col00, s:col15]]
 let s:p.normal.warning	= [[s:col00, s:col13]]
 
-" let s:p.tabline.left	= [[s:col00, s:col00]]
-" let s:p.tabline.tabsel	= [[s:col00, s:col00]]
-" let s:p.tabline.middle	= [[s:col00, s:col00]]
-" let s:p.tabline.right	= [[s:col00, s:col00]]
+let s:p.tabline.left	= [[s:col00, s:col08]]
+let s:p.tabline.tabsel	= [[s:col06, s:col10]]
+let s:p.tabline.middle	= [[s:col00, s:col08]]
+let s:p.tabline.right	= [[s:col00, s:col10]]
 
 let g:lightline#colorscheme#nordisk#palette	= lightline#colorscheme#flatten(s:p)
 
