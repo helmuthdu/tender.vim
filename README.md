@@ -46,19 +46,8 @@ colorscheme tender
 ```
 
 
-Use [lightline](https://github.com/itchyny/lightline.vim) themes (`tender` and `tenderplus`):
-
-```viml
-" set lighline theme inside lightline config
-let g:lightline = { 'colorscheme': 'tender' }
-```
-
-Use [airline](https://github.com/vim-airline/vim-airline) themes (`tender` and `tenderplus`):
-
-```viml
-" set airline theme
-let g:airline_theme = 'tender'
-```
+The [lightline](https://github.com/itchyny/lightline.vim) theme in this repo is from [Nordisk](https://github.com/kamwitsta/nordisk).
+For the lightline and airline theme of tender, please check the original repo.
 
 
 Fix for MacVim ([see issue](https://github.com/jacoborus/tender.vim/issues/9)):
