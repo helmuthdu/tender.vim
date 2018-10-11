@@ -38,7 +38,7 @@ hi PmenuSbar guifg=#d3b987 ctermfg=180 guibg=#d3b987 ctermbg=180 gui=NONE cterm=
 hi PmenuThumb guifg=#ffc24b ctermfg=215 guibg=#ffc24b ctermbg=215 gui=NONE cterm=NONE
 hi Question guifg=#c9d05c ctermfg=185 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Search guifg=#ffffff ctermfg=15 guibg=NONE ctermbg=NONE gui=underline,bold cterm=underline,bold
-hi SignColumn ctermbg=None ctermfg=238 guibg=None guifg=#444444
+hi SignColumn ctermbg=NONE ctermfg=238 guibg=NONE guifg=#444444
 hi SpecialKey guifg=#444444 ctermfg=238 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi SpellBad guifg=#f43753 ctermfg=203 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi SpellLocal guifg=#d3b987 ctermfg=180 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -241,8 +241,8 @@ hi! link SignifySignChangeDelete GitGutterChangeDelete
 hi! link SignifySignDelete GitGutterDelete
 hi! link SignifySignDeleteFirstLine SignifySignDelete
 
-hi! ALEErrorSign ctermbg=None ctermfg=203 guibg=None guifg=#f43753
-hi! ALEWarningSign ctermbg=None ctermfg=215 guibg=None guifg=#ffc24b
+hi! ALEErrorSign ctermbg=NONE ctermfg=203 guibg=NONE guifg=#f43753
+hi! ALEWarningSign ctermbg=NONE ctermfg=215 guibg=NONE guifg=#ffc24b
 
 hi! link plug1 Normal
 hi! link plug2 Identifier
