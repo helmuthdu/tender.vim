@@ -3,9 +3,9 @@ normal1: 'blue4 blue1' # 2 items
 normal2: 'bg blue2' # 2 items
 normal3: 'blue1 grey3' # 1 item
 # inactive
-inactive1:  'gandalf grey2' # 2 items
-inactive2: 'gandalf grey2' # 2 items, linking to normal.right by default
-inactive3: 'gandalf grey3' # 1 item, linking to normal.middle by default
+inactive1:  'grey1 grey2' # 2 items
+inactive2: 'grey1 grey2' # 2 items, linking to normal.right by default
+inactive3: 'grey1 grey3' # 1 item, linking to normal.middle by default
 # insert
 insert1: 'green4 green1' # 2 items
 insert2: 'bg green2' # 2 items, linking to normal.right by default

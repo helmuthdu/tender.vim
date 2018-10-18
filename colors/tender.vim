@@ -4,7 +4,7 @@
 " URL: https://github/com/jacoborus/tender.vim
 " Author: Jacobo Tabernero http://jacoborus.codes
 " License: MIT
-" Last Change: 2017/02/05 21:43
+" Last Change: 2018/10/18 13:02
 " ===============================================================
 
 set background=dark
@@ -38,7 +38,6 @@ hi PmenuSbar guifg=#d3b987 ctermfg=180 guibg=#d3b987 ctermbg=180 gui=NONE cterm=
 hi PmenuThumb guifg=#ffc24b ctermfg=215 guibg=#ffc24b ctermbg=215 gui=NONE cterm=NONE
 hi Question guifg=#c9d05c ctermfg=185 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Search guifg=#ffffff ctermfg=15 guibg=NONE ctermbg=NONE gui=underline,bold cterm=underline,bold
-hi SignColumn ctermbg=NONE ctermfg=238 guibg=NONE guifg=#444444
 hi SpecialKey guifg=#444444 ctermfg=238 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi SpellBad guifg=#f43753 ctermfg=203 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi SpellLocal guifg=#d3b987 ctermfg=180 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -54,7 +53,7 @@ hi Visual guifg=NONE ctermfg=NONE guibg=#040404 ctermbg=0 gui=NONE cterm=NONE
 hi VisualNOS guifg=NONE ctermfg=NONE guibg=#040404 ctermbg=0 gui=NONE cterm=NONE
 hi WarningMsg guifg=#f43753 ctermfg=203 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi WildMenu guifg=#282828 ctermfg=235 guibg=#c9d05c ctermbg=185 gui=bold cterm=bold
-hi Comment guifg=#666666 ctermfg=242 guibg=NONE ctermbg=NONE gui=italic cterm=italic
+hi Comment guifg=#666666 ctermfg=242 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Constant guifg=#ffc24b ctermfg=215 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi String guifg=#d3b987 ctermfg=180 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Character guifg=#ffc24b ctermfg=215 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -72,7 +71,7 @@ hi Type guifg=#73cef4 ctermfg=81 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Special guifg=#73cef4 ctermfg=81 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Underlined guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=underline cterm=underline
 hi Error guifg=#eeeeee ctermfg=255 guibg=#f43753 ctermbg=203 gui=NONE cterm=NONE
-hi Todo guifg=#f43753 ctermfg=203 guibg=NONE ctermbg=NONE gui=bold,italic cterm=bold,italic
+hi Todo guifg=#f43753 ctermfg=203 guibg=NONE ctermbg=NONE gui=bold cterm=bold
 hi cssVendor guifg=#9faa00 ctermfg=142 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi cssTagName guifg=#9faa00 ctermfg=142 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi cssAttrComma guifg=#eeeeee ctermfg=255 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -224,33 +223,6 @@ hi javascriptFuncName guifg=#c9d05c ctermfg=185 guibg=NONE ctermbg=NONE gui=NONE
 hi yamlFlowString guifg=#d3b987 ctermfg=180 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi yamlFlowStringDelimiter guifg=#eeeeee ctermfg=255 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi yamlKeyValueDelimiter guifg=#f43753 ctermfg=203 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-
-hi! link StartifyBracket Comment
-hi! link StartifyFile Identifier
-hi! link StartifyFooter Constant
-hi! link StartifyHeader Constant
-hi! link StartifyNumber Special
-hi! link StartifyPath Comment
-hi! link StartifySection Statement
-hi! link StartifySlash Comment
-hi! link StartifySpecial Normal
-
-hi! link SignifySignAdd GitGutterAdd
-hi! link SignifySignChange GitGutterChange
-hi! link SignifySignChangeDelete GitGutterChangeDelete
-hi! link SignifySignDelete GitGutterDelete
-hi! link SignifySignDeleteFirstLine SignifySignDelete
-
-hi! ALEErrorSign ctermbg=NONE ctermfg=203 guibg=NONE guifg=#f43753
-hi! ALEWarningSign ctermbg=NONE ctermfg=215 guibg=NONE guifg=#ffc24b
-
-hi! link plug1 Normal
-hi! link plug2 Identifier
-hi! link plugDash Comment
-hi! link plugMessage Special
-
-hi! link Lf_hl_match Search
-hi! link Lf_hl_matchRefine IncSearch
 
 let g:terminal_color_foreground = "#282828"
 let g:terminal_color_background = "#eeeeee"
